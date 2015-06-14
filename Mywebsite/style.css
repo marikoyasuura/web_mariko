@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   width: 100%;
+    background: #f9f9f9;
+   
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+#key-block a{
+font-size: 24px;
+    color: #ff4c4c;
+    background: #f9f9f9;
+    border: 1px solid #757D75;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px}
+#key-block a:hover{
+    background: #ff4c4c;
+    color: #f9f9f9;
+    background: #9f9f9;
+    border: 1px solid #ff4c4c;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 1s
+
+}
+#key-block img{
+  float: left;
+    margin-right: 10px;
+}
+#key-block h1{
+  font: left;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+#key-block p{
+    float: left;
+    font-size: 12px;
+    width: 350px;
+    margin-bottom: 5px;
+    
+}
+nav{
+    overflow: hidden;
+    background: #ff4c4c;
+    margin-bottom: 30px;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+    
+}
+nav a{
+text-decoration: none;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    display: block;
+    padding: 8px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background: #fff;
+    color: #ff4c4c;
+}
+.main{
+   width: 600px;
+   overflow:hidden;
+   float: left;
+   background: #FFF;
+  padding: 20px;
+}
+.sidebar{
+    width: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    background: #FFF;
+}
+.col-6{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  
+    
+}
+.col-5{
+    width: 490px;
+    padding: 5px;
+    float: left;
+   
+}
+.col-4{
+    width: 390px;
+    padding: 5px;
+    float: left;
+   
+}
+
+.col-3{
+    width: 290px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    
+}
+.col-2{
+    width: 190px;
+    padding: 5px;
+    float: left;
+    
+}
+.col-1{
+    width: 90px;
+    padding: 5px;
+    float: left;
+    
+}
